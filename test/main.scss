@@ -1,0 +1,8 @@
+@import '../style.scss';
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid cadetblue;
+  @include auto-fit-column('.boxes', '.box', '.inner', 100px, 15px, 1.2);
+}
